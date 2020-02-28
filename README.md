@@ -1,68 +1,89 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Burger Builder (redux) project is part of the Udemy Course: React - The Complete Guide (incl Hooks, React Router, Redux)
+and was created following the instructions provided in the course.
 
-## Available Scripts
+The Burger Builder (redux) project was created using:
 
-In the project directory, you can run:
+* React v16
+* React Router
+* CSS3 modules
+* Redux
 
-### `npm start`
+Additional libraries:
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* axios
+* prop-types
+* react-router-dom
+* enzyme
+* enzyme-adapter-react-16
+* react-redux
+* redux
+* redux-thunk
+* react-test-renderer
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Production environment:
 
-### `npm test`
+* Heroku ( https://theburgerbuilder.herokuapp.com/ )
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Creation log:
 
-### `npm run build`
+# Adding Redux to The Burger Builder project
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* Basic Redux Setup
+* Finishing the Reducer for Ingredients
+* Connecting the Burger Builder Container to our Store
+* Working on the Total Price Calculation
+* Redux & UI State
+* Adjusting Checkout and Contact Data 
+* Installing the Redux Devtools
+* Preparing the Folder Structure
+* Creating Action Creators
+* Executing Asynchronous Code
+* Fetching Ingredients Asynchronously
+* Initializing Ingredients in the BurgerBuilder
+* Changing the Order of our Ingredients Manually
+* Adding Order Actions
+* Connecting Contact Data Container & Actions
+* The Order Reducer
+* Working on Order Actions
+* Redirect to Improve UX
+* Combining Reducers
+* Handling Purchases & Updating the UI
+* Resetting the Price after Purchases
+* Fetching Orders (via Redux)
+* Checking our Implemented Functionalities
+* Refactoring Reducers
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+# Adding Authentication to The Burger Builder project
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Required App Adjustments
+* Adding an Auth Form
+* Adding Actions
+* Getting a Token from the Backend
+* Adding Sign-In 
+* Storing the Token
+* Adding a Spinner
+* Logging Users Out
+* Accessing Protected Resources
+* Updating the UI Depending on Auth State
+* Adding a Logout Link
+* Forwarding Unauthenticated Users 
+* Redirecting the User to the Checkout Page
+* Persistent Auth State with localStorage
+* Fixing Connect + Routing Errors 
+* Ensuring App Security 
+* Guarding Routes 
+* Displaying User Specific Orders 
 
-### `npm run eject`
+# Improving The Burger Builder project
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Fixing the Redirect to the Frontpage
+* Using updateObject in the Entire App
+* Sharing the Validation Method 
+* Using Environment Variables
+* Adding Lazy Loading 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+# Implementing Testing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+* Testing components
+* Testing containers
+* Testing Redux

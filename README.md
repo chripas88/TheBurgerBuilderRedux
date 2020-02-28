@@ -1,5 +1,5 @@
 The Burger Builder (redux) project is part of the Udemy Course: React - The Complete Guide (incl Hooks, React Router, Redux)
-and was created following the instructions provided in the course.
+and was created following the instructions provided in the course. It is an updated version of The Burger Builder (vanilla) project, which includes Redux and Testing implementation.
 
 The Burger Builder (redux) project was created using:
 

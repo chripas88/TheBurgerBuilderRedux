@@ -22,7 +22,7 @@ Additional libraries:
 
 Production environment:
 
-* Heroku ( https://theburgerbuilder.herokuapp.com/ )
+* Heroku ( https://theburgerbuilderredux.herokuapp.com/ )
 
 Creation log:
 

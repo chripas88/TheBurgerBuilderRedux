@@ -10,7 +10,7 @@ import Spinner from '../components/ui/Spinner';
 import withErrorHandler from '../hoc/withErrorHandler';
 import * as actions from '../store/actions/index';
 
-class BurgerBuilder extends React.Component{
+export class BurgerBuilder extends React.Component{
 	state = {
 		purchasing: false
 	}
